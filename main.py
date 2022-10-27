@@ -30,11 +30,6 @@ def get_filenames():
     return files_list
 
 
-
-
-
-
-
 def main():
     # get a list of dictionaries {ID: [file1, file2, file3, file3]} for each participant
     with open("scores.txt", "w") as outfile:
@@ -55,20 +50,6 @@ def main():
     average_overall_score = sum(all_total_scores)/len(all_total_scores)
 
     print("Average overall score of all participants:", average_overall_score)
-
-
-    #files = get_filenames()
-    #print(files)
-    #p1 = Participant(files[0])
-    #print("ID:\t\t", p1.id)
-    #print("MU Score:\t", p1.mu_score())
-    #print("OS Score:\t", p1.operation_span_score())
-    #print("SS Score:\t", p1.sentence_span_score())
-    #print("SSTM score:\t", p1.sstm_score())
-    #print("Total score:\t", p1.total_score())
-
-    #TODO: calculate scores (initiate objects)
-    # TODO: write results file
 
 
 if __name__ == "__main__":
