@@ -33,7 +33,7 @@ def get_filenames():
 def main():
     # get a list of dictionaries {ID: [file1, file2, file3, file3]} for each participant
     with open("scores.txt", "w") as outfile:
-        outfile.write("ID\tMU Score\tOS Score\tSS Score\tSSTM score\tTotal score")
+        outfile.write("ID\tMU Score\tOS Score\tSS Score\tSSTM score\tTotal score\t")
         for file in get_filenames():
             p = Participant(file)
 
