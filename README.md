@@ -1,6 +1,6 @@
 # WMC Battery Analysis
 
-Python implementation of the WMC Battery Analysis (Lewandowsky et al.).
+Python implementation of the WMC Battery Analysis (Lewandowsky et al., 2010).
 This code writes a file "scores.txt" which contains Subject ID and Scores for the 4 Tasks as well as a total score 
 (arithmetic mean). 
 
